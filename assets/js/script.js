@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Create an anchor element to trigger the download
         const downloadLink = document.createElement('a');
-        downloadLink.href = 'assets/Atharva_DEV.pdf'; // Replace 'path/to/resume.pdf' with the actual path to your resume
+        downloadLink.href = 'assets/resume.pdf'; // Replace 'path/to/resume.pdf' with the actual path to your resume
         downloadLink.setAttribute('download', 'resume.pdf');
         downloadLink.style.display = 'none'; // Hide the anchor element
         document.body.appendChild(downloadLink); // Append the anchor element to the document body
